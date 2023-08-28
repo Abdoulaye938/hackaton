@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed {
+	font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+	font-family: 'Merriweather', serif;
+}
+body{
+    background-color: #06600a;
+    color: #fff;
+}
+.navbar{
+    background-color: #000000;
+}
+.logo{
+    color: #06600a;
+}
+.navbar .nav-link{
+    color: #fff;
+    font-size: 18px;
+}
+ .navbar .nav-link:active, .navbar .nav-link:focus, .navbar .nav-link:hover{
+    color: #066000;
+    
+}
+.navbar .btn-Déconnexion{
+    background-color: #06600a;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+.btn-Déconnexion:hover{
+    background-color: #fff;
+    border: 2px solid #066000;
+}
+.input{
+    outline: none;
+}
+.rotate-vert-center {
+	animation: rotate-vert-center 6s cubic-bezier(0.600, -0.280, 0.735, 0.045) infinite alternate both;
+}
+@keyframes rotate-vert-center {
+    0% {
+      transform: rotateY(10deg);
+    }
+    100% {
+      transform: rotateY(50deg);
+    }
+  }
+.card {
+    width: 190px;
+    height: 254px;
+    background: #06600a;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 0 rgba(211, 211, 211, 0.199);
+  }
+  .card:hover{
+    box-shadow: inset 300px 0 0 0 rgba(211, 211, 211, 0.199);
+  }
+  /* --------------------Ibrahima konate---------*/
+  h1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.kona{
+    width: 100%;
+    height: 600px;
+}
+.hack{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.laye{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.abdou{
+    width: 300px;
+    height:300px;
+}
+.hack2{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content:space-evenly;
+    }
+@media (max-width:400px){
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .kona{
+        width: 25%;
+        height: 50px;
+    }
+    .laye{
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .abdou{
+        width: 150px;
+        height:150px;
+    }
+
+    .hack{
+        width: 100%;
+        height: 600px;
+        display: flex;
+      flex-direction: column;
+    }
+    .ball{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hack2{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .kona{
+        width: 25%;
+        height: 50px;
+    }
+    .laye{
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .abdou{
+        width: 150px;
+        height:150px;
+    }
+
+    .hack{
+        width: 100%;
+        height: 600px;
+        display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .ball{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .hack2{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+@media (min-width:601px) and (max-width:750px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .kona{
+        width: 25%;
+        height: 50px;
+    }
+    .laye{
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .abdou{
+        width: 150px;
+        height:150px;
+    }
+
+    .hack{
+        width: 100%;
+        height: 600px;
+        display: flex;
+      flex-direction: column;
+    }
+    .ball{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hack2{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (min-width:750px) and (max-width:850px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .kona{
+        width: 25%;
+        height: 50px;
+    }
+    .laye{
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .abdou{
+        width: 150px;
+        height:150px;
+    }
+
+    .hack{
+        width: 100%;
+        height: 600px;
+        display: flex;
+      flex-direction: column;
+    }
+    .ball{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hack2{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+  /*-------------Mariamm---------------*/
+  .section{
+    background-color: white;
+    color: green;
+    border: 1px solid gray;
+    border-bottom-left-radius: 5px;
+}
+
+.sec1{
+    display: flex;
+    gap: 70px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+img{
+    width: 70px;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.div3 .divinterne a{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 6px;
+}
+.div3 .fa-solid{
+  margin-right: 30px;
+}
+.div3 .divinterne a:hover{
+    border: 1px solid green;
+    background-color: blue;
+    opacity: 0.6;
+}
+
+.sec2{
+    background-color:rgb(43, 35, 35);
+    opacity: 0.8;
+    padding: 10px;
+    margin-top: 140px;
+}
+
+.sec2 h4{
+margin-left: 50px;
+}
+
+span a{
+    color: white;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
