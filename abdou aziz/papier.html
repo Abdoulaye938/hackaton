@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demarche administraives</title>
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="papier.css" />
+  </head>
+  <body>
+    <header class="py-0 my-0">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand text-uppercase redressed my-0 logo px-2 py-0 fw-bolder"
+            href="#"
+            >M<span class="text-light my-0 fs- py-0">@</span
+            ><span class="text-light my-0 py-0">ir</span>ie</a
+          >
+          <button
+            class="navbar-toggler bg-info"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-white" id="navbarNav">
+            <ul class="navbar-nav text-start">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="../index.html">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="papier.css">Papiers</a>
+              </li>
+            </ul>
+            <div class="input-group w-50 m-auto">
+              <input
+                class="form-control border-end-0 border rounded-pill"
+                type="search"
+                placeholder="Recherche"
+                id="example-search-input"
+              />
+              <span class="input-group-append">
+                <!-- <button class="btn btn-outline-secondary ms-2 bg-white border-bottom-0 border rounded-pill ms-n5" type="button">
+                            <i class="fa fa-search"></i>
+                        </button> -->
+              </span>
+            </div>
+          </div>
+          <ul class="navbar-nav text-start">
+            <li class="nav-item text-end">
+              <a
+                class="nav-link btn btn-Déconnexion fw-bold"
+                href="connexion.html"
+                class=""
+                >Déconnexion</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="papier">
+        <div class="container py-5">
+          <div class="row py-5 mx-auto gx-1 gy-3">
+            <div
+              class="col-md-4 mx-auto flex-column d-flex justify-content-center align-items-center"
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-3d"
+            >
+              <div class="card papier mx-1">
+                <div
+                  class="card-body d-flex flex-column justify-content-around"
+                >
+                  <h5
+                    class="card-title fw-bolder text-center fst-italic merriweather"
+                  >
+                    Certificat de décès
+                  </h5>
+                  <p class="card-subtitle mb-2">
+                    L’acte de décès est un document officiel attestant du décès
+                    d’une personne. <br />
+                    Ce document fait foi et prouve que la personne concernée est
+                    décédée aux yeux de l’état .
+                  </p>
+                  <p class="card-text">
+                    La déclaration du décés doit être faite à la mairie du lieu
+                    de décés dans les 24 heures qui <br />
+                    suivent (hors week-ends et jours fériés). <br />
+                    Elle peut être faite par un proche du défunt ou par toute
+                    autre personne.
+                  </p>
+                  <div class="mx-auto text-center">
+                    <button
+                      class="card-link mx-auto rounded-pill btn btn-success fst-italic merriweather"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal1"
+                    >
+                      Pièces à fournir
+                    </button>
+                    <!-- Modal 1 -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal1"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body text-dark">
+                            <div class="wrapper">
+                              <div class="outer">
+                                <div class="">
+                                  <h1>Pièces à fournir</h1>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 mx-auto flex-column d-flex justify-content-center align-items-center"
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-3d"
+            >
+              <div class="card papier mx-1">
+                <div
+                  class="card-body d-flex flex-column justify-content-around"
+                >
+                  <h5
+                    class="card-title fw-bolder text-center fst-italic merriweather"
+                  >
+                    Acte de naissance
+                  </h5>
+                  <p class="card-subtitle">
+                    Un acte de naissance est un document légal qui permet de
+                    prouver l’état civil d’une personne.
+                  </p>
+                  <p class="card-text">
+                    En effet, sur l’acte de naissance, on retrouve le nom, le ou
+                    les prénoms, la date, l’heure et le lieu de naissance.
+                  </p>
+                  <div class="mx-auto text-center">
+                    <a
+                      href="#"
+                      class="card-link mx-auto rounded-pill btn btn-success fst-italic merriweather"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal2"
+                      >Pièces à fournir</a
+                    >
+                    <!-- modal 2 -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal2"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body text-dark">
+                            <div class="wrapper">
+                              <div class="outer">
+                                <div class="">
+                                  <h1>Pièces à fournir</h1>
+                                  <ul class="text-start fw-bolder">
+                                    <li class="mb-2">
+                                      Une pièce d’identité du demandeur
+                                    </li>
+
+                                    <li class="mb-2">
+                                      Un document justifiant le lien de parenté
+                                      du demandeur avec la personne concernée
+                                      <br />
+                                      par l’acte (livret de famille, copie de
+                                      votre acte de naissance ou autre acte
+                                      d’état civil)
+                                    </li>
+
+                                    <li class="mb-2">
+                                      Les noms et prénoms de la personne pour
+                                      laquelle sera délivré l’acte de naissance
+                                    </li>
+
+                                    <li class="mb-2">
+                                      La date et le lieu de naissance de la
+                                      personne
+                                    </li>
+
+                                    <li class="mb-2">
+                                      Une lettre de demande manuscrite ou un
+                                      formulaire complété
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 mx-auto flex-column d-flex justify-content-center align-items-center"
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-3d"
+            >
+              <div class="card papier mx-1">
+                <div
+                  class="card-body d-flex flex-column justify-content-around"
+                >
+                  <h5
+                    class="card-title fw-bolder text-center fst-italic merriweather"
+                  >
+                    Certificat de domicile
+                  </h5>
+                  <p class="card-subtitle mb-2">
+                    Le certificat de domicile est un document délivré par la
+                    commune, qui atteste qu'une personne est bien domiciliée à
+                    telle adresse.
+                  </p>
+                  <div class="mx-auto text-center">
+                    <a
+                      href="#"
+                      class="card-link mx-auto rounded-pill btn btn-success fst-italic merriweather"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal3"
+                      >Pièces à fournir</a
+                    >
+                    <!-- modal 3 -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal3"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body text-dark">
+                            <div class="wrapper">
+                              <div class="outer">
+                                <div class="">
+                                  <h1>Pièces à fournir</h1>
+                                  <ul class="py-5 fw-bolder text-start">
+                                    <li>Une pièce d'identité</li>
+                                    <li>
+                                      Un justificatif de domicile (facture
+                                      d'électricité, d'eau, de téléphone, etc),
+                                      si possible
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 flex-column d-flex justify-content-center align-items-center"
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-3d"
+            >
+              <div class="card papier mx-1">
+                <div
+                  class="card-body d-flex flex-column justify-content-around"
+                >
+                  <h5
+                    class="card-title fw-bolder text-center fst-italic merriweather"
+                  >
+                    Certification de residence
+                  </h5>
+                  <p class="card-subtitle">
+                    Un acte de naissance est un document légal qui permet de
+                    prouver l’état civil d’une personne.
+                  </p>
+                  <p class="card-text">
+                    En effet, sur l’acte de naissance, on retrouve le nom, le ou
+                    les prénoms, la date, l’heure et le lieu de naissance.
+                  </p>
+                  <div class="mx-auto text-center">
+                    <a
+                      href="#"
+                      class="card-link mx-auto rounded-pill btn btn-success fst-italic merriweather"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal4"
+                      >Pièces à fournir</a
+                    >
+                    <div
+                      class="modal fade"
+                      id="exampleModal4"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body text-dark">
+                            <div class="wrapper">
+                              <div class="outer">
+                                <div class="">
+                                  <h1>Pièces à fournir</h1>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="../bootstrap.bundle.min.js"></script>
+  </body>
+</html>
